@@ -1,0 +1,42 @@
+body{
+    background-color: white
+}
+
+
+.front-card{
+width: 612px;
+ height: 350px;
+ margin: 0 auto;
+ background-color: rgba(red, rgb(0, 128, 0), blue, alpha);
+ margin-bottom: 50px;
+ background-image: url("assets/front-card.svg");
+ box-shadow: 2px 5px 15px 0px;
+ font-size: xx-small;
+ text-align: center;
+}
+.back-card{
+ width: 612px;
+ height: 350px;
+ margin: 0 auto;
+ background-color: white;
+ background-image: url("assets/back-card.svg");
+ background-repeat: no-repeat;
+ box-shadow: 2px 5px 15px 0px;
+ font-size: small;
+ text-align: center;
+}
+ .icon-container{
+ display:grid;
+ /* where you can adjust the grid container size by width */
+ width:65px;
+ /* to adjust the space between icons */
+ grid-gap: 10px;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+ grid-template-areas:
+ "a"
+ "b"
+ "c";
+ border: 8px solid white;
+ position:relative; top: 70px left 70px;
+}
